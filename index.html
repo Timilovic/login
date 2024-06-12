@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .double{
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            width: 344px;
+        }
+        input{
+            margin-bottom: 15px;
+            margin-top: 6PX;
+        }
+        form > input{
+            width:363px;
+            height: 30px;
+        }
+        .double input{
+            width:168px;
+            height:30px;
+        }
+        .div1{
+            margin-right: 26px;
+        }
+        label{
+            font-size: 10px;
+            color:gray;
+        }
+        *{
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .all{
+            width:480px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        input::placeholder{
+            padding-left: 10px;
+            color:rgba(196, 187, 187, 0.767)
+        }
+        textarea::placeholder{
+         padding-left: 10px;
+            color:rgba(196, 187, 187, 0.767)
+        }
+        .submit{
+            width:80px;
+            font-size: 10px;
+            background-image: linear-gradient(50deg, green, rgb(16, 199, 199));
+            border-style: none;
+            color:white;
+            margin:0px;
+            height: 30px;
+        }
+        body{
+            background-image: linear-gradient(50deg, green, rgb(16, 199, 199));
+            display: GRID;
+            justify-content: center;
+            align-items:center ;
+            padding-top: 10vh;
+        }
+        input{
+            border-style:none;
+            background-color: rgba(223, 209, 209, 0.404);
+        }
+        .sub{
+            margin-top: 10px;
+            display:flex;
+            justify-content: center;
+            width:100%;
+            height:100%;
+        }
+        textarea{
+            border-style:none;
+            background-color: rgba(223, 209, 209, 0.40)
+        }
+        .num{
+            display: block ;  
+            margin-top: 10PX;
+            
+        }
+    </style>
+</head>
+<body>
+<div class="all">
+    <form action="">
+        <h2>GET IN TOUCH</h2>
+        <div class="double">
+        <div class="div1"><label for="">Tell us your name</label><br>
+        <input type="text" name="name" placeholder="Enter your name"></div>
+        <div class="div2"><label for=""> Enter your email</label><br>
+        <input type="email" name="email" id="" placeholder="Enter your email"></div>
+    </div>
+        <label for="">Your website</label><br>
+        <input type="url" name="website" id="" placeholder="https://"><br>
+        <label for="">Message</label><br>
+        <textarea name="Message" id="" cols="49" rows="9 " placeholder="Your message here..."></textarea><br>
+        <div class="sub"><input class="submit" type="submit" value="SUBMIT">
+    </form></div>
+
+
+    <!-- <div class="num">Call us on +001 345 6178</div>  -->
+</body>
+</html>
