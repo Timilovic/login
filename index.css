@@ -83,6 +83,7 @@ textarea{
     }
     input::placeholder{
         font-size:15px;
+        padding:13px; 
     }
     .double{
         flex-direction: column;
