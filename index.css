@@ -13,7 +13,7 @@ form{
     padding:20px;
     background-color: white;
     border-radius: 5px;
-    width:70%;
+    max-width:50%;
     margin:90px auto;
 }
 
